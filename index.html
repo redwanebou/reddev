@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jouw IT Bedrijf</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Jouw IT Bedrijf</h1>
+            <nav>
+                <ul>
+                    <li><a href="#diensten">Diensten</a></li>
+                    <li><a href="#over">Over Ons</a></li>
+                    <li><a href="#contact">Offerte</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Digitale oplossingen voor jouw bedrijf</h2>
+            <p>Webontwikkeling, cloudoplossingen, IT-beheer en meer. Betrouwbaar en op maat.</p>
+            <a href="#contact" class="btn">Vraag een offerte aan</a>
+        </div>
+    </section>
+
+    <section id="diensten" class="diensten">
+        <div class="container">
+            <h2>Onze Diensten</h2>
+            <div class="grid">
+                <div class="dienst">
+                    <h3>Webontwikkeling</h3>
+                    <p>Professionele websites & webapplicaties afgestemd op jouw business.</p>
+                </div>
+                <div class="dienst">
+                    <h3>Cloud & Hosting</h3>
+                    <p>Beveiligde cloudoplossingen met 24/7 uptime monitoring.</p>
+                </div>
+                <div class="dienst">
+                    <h3>IT Beheer</h3>
+                    <p>Volledige ondersteuning en beheer van jouw IT-infrastructuur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="over" class="over">
+        <div class="container">
+            <h2>Over Ons</h2>
+            <p>Wij zijn een jong en ambitieus IT-bedrijf dat zich richt op het bouwen van slimme, schaalbare oplossingen voor bedrijven in Nederland.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Vraag een Offerte aan</h2>
+            <form action="https://formsubmit.co/jouw@email.nl" method="POST">
+                <input type="text" name="naam" placeholder="Je naam" required>
+                <input type="email" name="email" placeholder="Je e-mailadres" required>
+                <textarea name="bericht" placeholder="Wat heb je nodig?" required></textarea>
+                <input type="hidden" name="_next" value="https://jouwdomein.nl/bedankt.html">
+                <input type="text" name="_honey" style="display:none">
+                <button type="submit">Verstuur</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Jouw IT Bedrijf. Alle rechten voorbehouden.</p>
+        </div>
+    </footer>
+</body>
+</html>
