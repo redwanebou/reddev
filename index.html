@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reddev | IT Solutions</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Topbar -->
+  <div class="bg-dark text-white py-1 small">
+    <div class="container d-flex justify-content-between">
+      <span>mail@reddev.be</span>
+      <span>24/7 Support · 1-800-REDDEV</span>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Reddev</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#services">Diensten</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Over ons</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="bg-light text-center py-5">
+    <div class="container">
+      <h1 class="display-5 fw-bold">IT Solutions for Your Business</h1>
+      <p class="lead">Professionele IT-diensten op maat van jouw groei.</p>
+      <a href="#contact" class="btn btn-primary me-2">Offerte aanvragen</a>
+      <a href="#services" class="btn btn-outline-primary">Bekijk diensten</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Onze Diensten</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Webontwikkeling</h5>
+              <p class="card-text">Responsive websites en webapps met moderne technologieën.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Cloud Services</h5>
+              <p class="card-text">Schaalbare en veilige cloudoplossingen voor elk type bedrijf.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Beveiliging</h5>
+              <p class="card-text">Bescherming tegen cyberdreigingen en 24/7 monitoring.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Over Reddev</h2>
+      <p class="text-center">Reddev is een professioneel IT-bedrijf dat zich richt op slimme digitale oplossingen voor KMO's en grote bedrijven.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Vraag een offerte aan</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form action="https://formsubmit.co/your@email.com" method="POST">
+            <div class="mb-3">
+              <input type="text" name="naam" class="form-control" placeholder="Naam" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" name="email" class="form-control" placeholder="E-mailadres" required>
+            </div>
+            <div class="mb-3">
+              <textarea name="bericht" class="form-control" rows="4" placeholder="Wat heb je nodig?" required></textarea>
+            </div>
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_next" value="https://www.reddev.be/bedankt.html">
+            <button type="submit" class="btn btn-primary w-100">Verstuur</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <div class="container">
+      &copy; 2025 Reddev. Alle rechten voorbehouden.
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
