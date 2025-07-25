@@ -1243,6 +1243,9 @@ a.move-top span{
 	.button-icon {
 		right: 11%;
 	}
+	.mw-50 {
+		max-width: 100%;
+	}
 }
 
 @media(max-width:736px) {
